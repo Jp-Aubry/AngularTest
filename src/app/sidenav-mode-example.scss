@@ -1,0 +1,71 @@
+.toolbar {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #379837;
+  color: white;
+  font-weight: 600;
+  position: sticky;
+}
+.card-producteur {
+  height: 100vh;
+  overflow: hidden;
+}
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .example-radio-group {
+    display: block;
+    border: 1px solid #555;
+    margin: 20px;
+    padding: 10px;
+    z-index:1000000;
+    
+  }
+
+  .farmer-info {
+    width: 30%;
+    color: white;
+  }
+  .farmer-info-card {
+  width:100%;
+  color: white;
+  background-color: #379837;
+  }
+  .farmer-info-card-subtitle {
+    color: white !important;
+    display: flex;
+  }
+  .farmer-info-card-subtitle-adress {
+    margin:5px
+  }
+  .farmer-info-subcard {
+    width:100%;
+    padding:0px !important;
+    }
+    .farmer-info-subcard-content {
+      display: flex;  
+      }
+    .farmer-info-subcard-content-identity {
+      margin-top:20px;
+      margin-left:40px;
+      opacity: 0.6;
+      }
+    .edit-farmer-info {
+      margin-top:50px;
+      margin-left:100px;
+      border-radius:50%;
+      background-color: #000000;
+      outline: none;
+    }
+
+  
+  
